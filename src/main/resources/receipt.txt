@@ -1,0 +1,14 @@
+           CASH RECEIPT.
+
+Date: 2021-11-28
+Time: 19:01:35
+DiscountCard: card, number: 1234, discount: 10%
+
+Item                Qty      Price      Total
+----                ---      -----      -----
+Xbox Series S         5     400,00    1800,00
+Asus Zenbook 14       2    1000,00    2000,00
+Samsung S11           5     999,00    4495,50
+
+DiscountSum: 699,50 $
+FinalSum: 8295,50 $
