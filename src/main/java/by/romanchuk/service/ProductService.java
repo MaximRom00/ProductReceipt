@@ -5,12 +5,7 @@ import by.romanchuk.entity.Product;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-/*
-Spring используется только для web части.
-Компонент слоя Service создается для внедрения в контроллеры.
-Слой Dao не инжексится в слой Service.(т.к. )
-Слоистость(mvc) продемонстрирована наглядно.
- */
+
 @Service
 public class ProductService implements ServiceInterface<Integer, Product>{
     private static final ProductService INSTANCE = new ProductService();
